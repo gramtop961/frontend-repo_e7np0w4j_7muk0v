@@ -1,0 +1,57 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 237 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.1.177:3000/
+1:23:03 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:144:63: ERROR: Unexpected backslash in JSX element
+1:23:03 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:144:63: ERROR: Unexpected backslash in JSX element
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:144:63
+  
+  Unexpected backslash in JSX element
+  142|  
+  143|    return (
+  144|      <div className="min-h-screen bg-neutral-950 font-[\"Manrope\",\"Inter\",system-ui,sans-serif]">
+     |                                                                 ^
+  145|        <Navbar cartCount={cart.length} onOpenCart={() => setCartOpen(true)} />
+  146|        <main>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+1:23:08 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:144:63: ERROR: Unexpected backslash in JSX element
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:144:63
+  
+  Unexpected backslash in JSX element
+  142|  
+  143|    return (
+  144|      <div className="min-h-screen bg-neutral-950 font-[\"Manrope\",\"Inter\",system-ui,sans-serif]">
+     |                                                                 ^
+  145|        <Navbar cartCount={cart.length} onOpenCart={() => setCartOpen(true)} />
+  146|        <main>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
